@@ -1,0 +1,21 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+# Generated screenshots
+*.png
+
+# Debugging files
+*.log
